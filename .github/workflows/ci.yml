@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: USERNAME/REPO:TAG
+          tags: theohartleitner/myhello:0.0.1
   
   sonarcloud:
     name: Run Sonarcloud static analysis
